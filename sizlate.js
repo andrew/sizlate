@@ -1,9 +1,7 @@
 var fs = require('fs');
 var cheerio = require('cheerio');
-exports.version = '0.7.1';
-console.log('in ur edit');
+exports.version = '0.7.2';
 var updateNode = function($node, selector, data) {
-	console.log(selector, data);
 	switch(typeof data) {
 		case "string":
 			if(data !== ""){

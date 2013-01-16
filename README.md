@@ -129,3 +129,12 @@ Release log :
 0.6.0 - forcing html5 doctype.
 0.5.0 - fix to partials, modified examples.
 
+
+
+NEEDED : 
+
+
+ability to set form action
+set input vals without it screwing up. 
+set form value for id. 
+
