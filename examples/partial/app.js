@@ -24,8 +24,18 @@ app.get('/', function(req, res){
       'ul#list': {
         partial: 'part',
         data: [
-          { '.name': 'Bob' },
-          { '.name': 'Anna' }
+          { '.name': {
+              href: 'http://bob.com',
+              title: 'bob',
+              innerHTML: 'Bob'
+            }
+          },
+          { '.name': {
+              href: 'http://alice.com',
+              title: 'Alice',
+              innerHTML: 'Alice'
+            }
+          }
         ]
       }
     }
